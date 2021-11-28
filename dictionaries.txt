@@ -1,0 +1,6 @@
+apple	quả táo
+lemon	quả chanh
+cat	mèo
+dog	chó
+vice	phó
+dictionary	từ điển

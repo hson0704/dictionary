@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="337.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Switch">
+   <children>
+      <Text fill="WHITE" layoutX="129.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Từ điển" textAlignment="CENTER" wrappingWidth="195.73675537109375">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Text>
+      <Button fx:id="main" layoutX="194.0" layoutY="155.0" mnemonicParsing="false" onAction="#changeMainButton" prefHeight="26.0" prefWidth="67.0" text="Tra từ" />
+      <Button fx:id="edit" layoutX="193.0" layoutY="228.0" mnemonicParsing="false" onAction="#changeEditButton" text="Chỉnh sửa" />
+      <Text fill="WHITE" layoutX="193.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19020424" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

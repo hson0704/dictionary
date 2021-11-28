@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="218.0" prefWidth="300.0" style="-fx-background-color: #a3f779;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Edit">
+   <children>
+      <Button fx:id="back" mnemonicParsing="false" onAction="#quayLai" prefHeight="26.0" prefWidth="59.0" text="Back" />
+      <Button fx:id="add" layoutX="30.0" layoutY="49.0" mnemonicParsing="false" onAction="#them" prefHeight="26.0" prefWidth="59.0" text="Add" />
+      <Button fx:id="remove" layoutX="120.0" layoutY="49.0" mnemonicParsing="false" onAction="#xoa" text="Remove" />
+      <Button fx:id="fix" layoutX="212.0" layoutY="49.0" mnemonicParsing="false" onAction="#sua" prefHeight="26.0" prefWidth="59.0" text="Fix" />
+      <Text fx:id="targetDisplay" fill="#af0e0e" layoutX="30.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="explainDisplay" fill="#af0e0e" layoutX="30.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField fx:id="editTarget" layoutX="115.0" layoutY="105.0" prefHeight="26.0" prefWidth="161.0" promptText="English" />
+      <TextField fx:id="editExplain" layoutX="115.0" layoutY="143.0" prefHeight="26.0" prefWidth="162.0" promptText="Vietnamese" />
+      <Button fx:id="comfirm" layoutX="120.0" layoutY="183.0" mnemonicParsing="false" onAction="#handleConfirm" prefHeight="26.0" prefWidth="59.0" text="Confirm" />
+   </children>
+</AnchorPane>
